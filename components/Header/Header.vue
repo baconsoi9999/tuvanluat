@@ -17,7 +17,6 @@
     </div>
   </nav>
 
-
 </template>
 
 <script>
@@ -32,7 +31,6 @@ export default {
 </script>
 
 <style>
-
 .header {
   background-color: #f1f1f1;
   margin-bottom: 5px;
@@ -42,7 +40,6 @@ export default {
 #navbar {
   margin-right: 50px;
   overflow: hidden;
-  
 }
 
 #navbar a {
@@ -54,7 +51,10 @@ export default {
   text-decoration: none;
   font-size: 17px;
 }
-
+.navbar {
+  padding-left: 20%;
+  padding-right: 10%;
+}
 #navbar a:hover {
   border-top-style: solid;
   border-width: 5px;
